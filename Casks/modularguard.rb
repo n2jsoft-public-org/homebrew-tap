@@ -1,23 +1,23 @@
 cask "modularguard" do
-  version "0.0.18"
+  version "0.0.19"
 
   on_macos do
     on_arm do
-      sha256 "feb3be01bf69ef063593c9ef57dfdb488c19a4daacdde891495f90fef4332ba8"
+      sha256 "8aa2c9324a075f0e08caf382dda5ccd6b73820a65c8c9f4f9c92f2c893e0c06d"
       url "https://github.com/n2jsoft-public-org/ModularGuard/releases/download/v#{version}/modularguard-osx-arm64.tar.gz"
     end
     on_intel do
-      sha256 "6a751dbe46e7f1586cf49f70587af845c3fad5748b2e355ef7657eb3a26c8a23"
+      sha256 "0fda285e995c99c49f33acad13f5724825358f38301797e4be2925600149e75b"
       url "https://github.com/n2jsoft-public-org/ModularGuard/releases/download/v#{version}/modularguard-osx-x64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "9df569557e5a4d0f3b4215483999f1ef1a1c2e2e72b616889af25e4c047f036f"
+      sha256 "2fb9ed461f894439f66dc59bde7b7af3da41b179331023c031a6874a8cb8304a"
       url "https://github.com/n2jsoft-public-org/ModularGuard/releases/download/v#{version}/modularguard-linux-arm64.tar.gz"
     end
     on_intel do
-      sha256 "2d2c0bf31700cde255c5d9de1b4c008ff68e61f0acd600ece5dda9a2ed01796e"
+      sha256 "4cae003f430697a2bb31dc40855f86e87aaa7ebacd8223dde08932be098ce9b1"
       url "https://github.com/n2jsoft-public-org/ModularGuard/releases/download/v#{version}/modularguard-linux-x64.tar.gz"
     end
   end
